@@ -1,0 +1,104 @@
+/* constants used */
+@import url(fonts/ARLRDBD.TTF);
+:root{
+--bgcolor:#F1F1F3;
+--yellow:#F9AF2A;
+--navgrey:#505050;
+--txtgrey1:#5D5D5D;
+--txtgrey2:#505050;
+--txtgrey3:#707070;
+--txtgrey4:#575757;
+--arialrounded:'Arial Rounded MT'
+
+}
+
+
+
+html{
+margin: 0%;
+padding: 0%;
+background-color: var(--bgcolor);
+
+}
+ 
+body{   
+
+}          
+/* navbar styles */
+nav{
+
+font-family: var(--arialrounded);
+color: var(--navgrey);
+}
+.nav-item{
+color: var(--navgrey);
+
+}
+.nav-item:hover{
+color:var(--yellow)
+}
+.active{
+color: var(--yellow);
+}
+
+#phone{
+width: 228px;height: 40px;
+float: right;
+background-color: var(--bgcolor);
+border-color: #777777;
+border-radius: 100px;
+font-family:var(--arialrounded);
+
+}
+
+/* end */
+
+/* homelanding styles */
+.home{
+background-image: url(img/wood-2142241_1920.png);
+background-size: cover;
+max-height: 100%;
+}
+
+
+/* end */
+
+
+/* home content styles */
+.col h1{
+font-family: Forte;
+font-size: 150px;
+color: var(--yellow);
+
+}
+.col h5{
+font-family: var(--arialrounded);
+
+color: var(--txtgrey1);
+
+}
+.col h5{
+font-family: var(--arialrounded);
+text-align: left;
+color: var(--txtgrey1);
+text-justify:auto;
+}
+.col h6{
+font-family: var(--arialrounded);
+text-align: left;
+color: var(--txtgrey2);
+text-justify:auto;
+margin-top: 20px;
+}
+.col #button{
+width:160px;
+height: 50px;
+margin-top: 45px;
+background-color: var(--yellow);
+border-radius: 50px;
+text-align: center;
+font-family: var(--arialrounded);
+color: var(--txtgrey2);
+
+box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
