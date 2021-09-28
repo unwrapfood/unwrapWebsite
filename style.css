@@ -148,3 +148,119 @@ html{
 .secondpart .value-items i{
     margin-right: 1vw;
 }
+
+.contact-me{
+    background-color: var(--yellow);
+    background-size: cover;
+}
+
+.contact-me h2{
+    font-family: var(--arialrounded);
+    color: var(--txtgrey1);
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.contact-list{
+    padding: 7%;
+}
+
+.contact-list h2{
+    margin-bottom: 12vh;
+}
+
+.pws{
+    text-align: center;
+    margin-bottom: 10vh;
+}
+
+.jws{
+    margin-top: 6vh;
+}
+
+.pws p,.jws p{
+    margin-top: 2vh;
+    font-family: var(--arialrounded);
+    color: var(--txtgrey2);
+}
+
+.form-group{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.form-group input,.form-group textarea{
+    width: 81%;
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+}
+
+input[type=text]{
+    display: inline-block;
+    width: 40%;
+}
+
+input::placeholder, textarea::placeholder{
+    padding-left: 1vw;
+}
+
+button[type="submit"]{
+    border-radius: 20px;
+    margin-top: 20px;
+    width: 20%;
+    border: none;
+    outline:none;
+    padding: 10px;
+    background-color: var(--txtgrey3);
+    color: white;
+    transition: .3s ease color;
+}
+
+button[type="submit"] i{
+    padding-left: 6px;
+    color: white;
+}
+
+button[type="submit"]:hover{
+    color: var(--btnyellow);
+}
+
+button[type="submit"]:hover i{
+    font-size: large;
+}
+
+.heading-list{
+    font-size: larger;
+    font-family: var(--arialrounded);
+    color:var(--txtgrey1);
+}
+
+.list-2{
+    text-align: center;
+}
+
+.sub-list{
+    margin-top: 3rem;
+}
+
+.sub-heading{
+    color: var(--txtgrey3);
+}
+
+.sub-heading i{
+    padding-right: 2%;
+}
+
+.socials {
+    text-align: center;
+}
+.socials a{
+    margin: 20px;
+    color: var(--txtgrey1);
+}
+
+.socials a:hover{
+    color: rgb(59, 46, 29);
+}
