@@ -3,15 +3,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
 
 :root{
---bgcolor:#F1F1F3;
---yellow:#F9AF2A;
---navgrey:#505050;
---txtgrey1:#5D5D5D;
---txtgrey2:#505050;
---txtgrey3:#707070;
---txtgrey4:#575757;
---arialrounded:'Arial Rounded MT'
-
+    --bgcolor:#F1F1F3;
+    --yellow:#F9AF2A;
+    --btnyellow: #f8ae28;
+    --navgrey:#505050;
+    --txtgrey1:#5D5D5D;
+    --txtgrey2:#505050;
+    --txtgrey3:#707070;
+    --txtgrey4:#575757;
+    --arialrounded:'Arial Rounded MT'
 }
 
 html{
@@ -23,6 +23,11 @@ html{
 
 .navbar-nav .nav-link{
     margin: 0 2vw;
+    color: black !important;
+}
+
+.navbar-nav .nav-link:hover{
+    color: yellow !important;
 }
 
 .custom-toggler.navbar-toggler {
@@ -30,7 +35,7 @@ html{
 }
 
 .custom-toggler .navbar-toggler-icon {
-        background-image: url(
+    background-image: url(
     "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(249,175,42)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
@@ -40,13 +45,13 @@ html{
 }
 
 .py-5 {
-    padding-top: 5rem!important;
+    padding-top: 4rem!important;
     padding-bottom: 3rem!important;
 }
  
 .headtext{
     color: var(--yellow);
-    font-family: 'Libre Baskerville', serif;
+    font-family: var(--headtextfont);
     font-size: 10vw;
 }
 
@@ -56,16 +61,16 @@ html{
 
 .note{
     margin-top: 2vw;
-    color: var(--txtgrey2);
+    color: black;
     line-height: 1.5;
-    font-style: oblique;
+    /* font-style: oblique; */
     word-spacing: .1cm;
 }
 
 .button{
     display: inline-block;
     border-radius: 40px;
-    background-color: var(--yellow);
+    background-color: var(--btnyellow);
     border: none;
     color: var(--bgcolor);
     text-align: center;
@@ -108,3 +113,38 @@ html{
     opacity: 1;
     right: 0;
 } 
+
+.head{
+    color: var(--txtgrey1);
+    font-family: 'Libre Baskerville', serif;
+}
+
+.items div h4,.items div p{
+    font-family: var(--arialrounded);
+    text-align: center;
+}
+
+.items div h4{
+    margin-top: 1vw;
+    color: var(--txtgrey4);
+}
+
+.items div p{
+    font-style: oblique;
+    color: var(--txtgrey3);
+}
+
+.vision{
+    margin-top: 4vw;
+}
+
+.secondpart .valuehead{
+    margin-top: 2vw;
+    font-family: var(--arialrounded);
+    font-weight: bold;
+    color: var(--txtgrey3);
+}
+
+.secondpart .value-items i{
+    margin-right: 1vw;
+}
