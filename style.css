@@ -121,6 +121,11 @@ html{
     margin-top: 4vw;
 }
 
+.head{
+    color: var(--txtgrey1);
+    font-family: 'Libre Baskerville', serif;
+}
+
 .secondpart .valuehead{
     margin-top: 2vw;
     font-family: var(--arialrounded);
@@ -132,13 +137,21 @@ html{
     margin-right: 1vw;
 }
 
-/* Team */
-.head{
-    color: var(--txtgrey1);
-    font-family: 'Libre Baskerville', serif;
+/* Choose Us */
+.choose_content{
+    margin-top: 4vh;
 }
 
+.tag{
+    margin: 6vh 0vh 0vh 0vh;
+}
 
+.tag .subtag{
+    font-family: var(--arialrounded);
+    font-weight: bold;
+    color: var(--txtgrey3);
+}
+/* Team */
 .items div h4,.items div p{
     font-family: var(--arialrounded);
     text-align: center;
