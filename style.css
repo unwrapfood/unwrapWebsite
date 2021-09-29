@@ -127,9 +127,14 @@ font-family: 'Arial Rounded MT';
     margin-top: 4vw;
 }
 
+.head{
+    color: var(--txtgrey1);
+
+}
+
 .secondpart .valuehead{
     margin-top: 2vw;
-    font-family: var(--arialrounded);
+ 
     font-weight: bold;
     color: var(--txtgrey3);
 }
@@ -144,7 +149,16 @@ font-family: 'Arial Rounded MT';
     font-family:'Arial Rounded MT';
 }
 
+.tag{
+    margin: 6vh 0vh 0vh 0vh;
+}
 
+.tag .subtag{
+    
+    font-weight: bold;
+    color: var(--txtgrey3);
+}
+/* Team */
 .items div h4,.items div p{
     
     text-align: center;
@@ -168,7 +182,7 @@ font-family: 'Arial Rounded MT';
 }
 
 .contact-me h2{
-    font-family: var(--arialrounded);
+    
     color: var(--txtgrey1);
     text-align: center;
     margin-bottom: 2rem;
@@ -189,7 +203,7 @@ font-family: 'Arial Rounded MT';
 .pws p,.jws p{
     margin-top: 2vh;
     color: var(--txtgrey2);
-    font-family: var(--arialrounded);
+    
 }
 
 .jws{
@@ -245,7 +259,7 @@ button[type="submit"]:hover i{
 
 .heading-list{
     font-size: larger;
-    font-family: var(--arialrounded);
+    
     color:var(--txtgrey1);
 }
 
