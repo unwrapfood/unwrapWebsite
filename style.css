@@ -36,7 +36,7 @@ html{
 
 .custom-toggler .navbar-toggler-icon {
     background-image: url(
-    "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(249,175,42)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(128,0,128)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 .banner{
@@ -166,22 +166,21 @@ html{
 }
 
 .contact-list h2{
-    margin-bottom: 12vh;
+    margin-bottom: 15vh;
 }
 
-.pws{
+.pws,.jws{
     text-align: center;
-    margin-bottom: 10vh;
-}
-
-.jws{
-    margin-top: 6vh;
 }
 
 .pws p,.jws p{
     margin-top: 2vh;
-    font-family: var(--arialrounded);
     color: var(--txtgrey2);
+    font-family: var(--arialrounded);
+}
+
+.jws{
+    margin-top: 5vh;
 }
 
 .form-group{
@@ -209,7 +208,7 @@ input::placeholder, textarea::placeholder{
 button[type="submit"]{
     border-radius: 20px;
     margin-top: 20px;
-    width: 20%;
+    width: auto;
     border: none;
     outline:none;
     padding: 10px;
