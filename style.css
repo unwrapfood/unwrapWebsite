@@ -22,6 +22,7 @@ html{
 }
 
 /* Navbar */
+
 .navbar-nav .nav-link{
     margin: 0 2vw;
     color: black !important;
@@ -41,13 +42,14 @@ html{
 }
 
 /* Home */
-.banner{
+.headsection{
     background-image: url('img/bg.png');
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .py-5 {
-    padding-top: 4rem!important;
+    padding-top: 1rem!important;
     padding-bottom: 3rem!important;
 }
  
@@ -121,6 +123,10 @@ html{
     margin-top: 4vw;
 }
 
+.vision .firstpart{
+    margin-top: 4vh;
+}
+
 .head{
     color: var(--txtgrey1);
     font-family: 'Libre Baskerville', serif;
@@ -151,6 +157,7 @@ html{
     font-weight: bold;
     color: var(--txtgrey3);
 }
+
 /* Team */
 .items div h4,.items div p{
     font-family: var(--arialrounded);
