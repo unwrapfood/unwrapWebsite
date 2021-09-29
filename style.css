@@ -21,6 +21,7 @@ html{
     scroll-behavior: smooth;
 }
 
+/* Navbar */
 .navbar-nav .nav-link{
     margin: 0 2vw;
     color: black !important;
@@ -39,6 +40,7 @@ html{
     "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(128,0,128)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
+/* Home */
 .banner{
     background-image: url('img/bg.png');
     background-size: cover;
@@ -114,26 +116,7 @@ html{
     right: 0;
 } 
 
-.head{
-    color: var(--txtgrey1);
-    font-family: 'Libre Baskerville', serif;
-}
-
-.items div h4,.items div p{
-    font-family: var(--arialrounded);
-    text-align: center;
-}
-
-.items div h4{
-    margin-top: 1vw;
-    color: var(--txtgrey4);
-}
-
-.items div p{
-    font-style: oblique;
-    color: var(--txtgrey3);
-}
-
+/* Vision */
 .vision{
     margin-top: 4vw;
 }
@@ -149,6 +132,30 @@ html{
     margin-right: 1vw;
 }
 
+/* Team */
+.head{
+    color: var(--txtgrey1);
+    font-family: 'Libre Baskerville', serif;
+}
+
+
+.items div h4,.items div p{
+    font-family: var(--arialrounded);
+    text-align: center;
+}
+
+.items div h4{
+    margin-top: 1vw;
+    color: var(--txtgrey4);
+}
+
+.items div p{
+    font-style: oblique;
+    color: var(--txtgrey2);
+}
+
+
+/* Contact */
 .contact-me{
     background-color: var(--yellow);
     background-size: cover;
@@ -252,6 +259,7 @@ button[type="submit"]:hover i{
     padding-right: 2%;
 }
 
+/* Footer */
 .socials {
     text-align: center;
 }
