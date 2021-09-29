@@ -1,5 +1,9 @@
 /* constants used */
-@import url(fonts/ARLRDBD.TTF);
+@font-face { font-family: Arial Rounded MT; 
+			 src: url('fonts/ARLRDBD.TTF'); } 
+             @font-face { font-family: forte; 
+			 src: url('fonts/FORTE.TTF'); } 
+
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
 
 :root{
@@ -11,7 +15,7 @@
     --txtgrey2:#505050;
     --txtgrey3:#707070;
     --txtgrey4:#575757;
-    --arialrounded:'Arial Rounded MT'
+    
 }
 
 html{
@@ -20,19 +24,21 @@ html{
     background-color: var(--bgcolor);
     scroll-behavior: smooth;
 }
-
+body{
+font-family: 'Arial Rounded MT';
+}
 /* Navbar */
 .navbar-nav .nav-link{
     margin: 0 2vw;
-    color: black !important;
+    color: var(--navgrey) !important;
 }
 
 .navbar-nav .nav-link:hover{
-    color: yellow !important;
+    color: var(--yellow) !important;
 }
 
 .custom-toggler.navbar-toggler {
-    border-color: rgb(128,0,128);
+    border-color: black;
 }
 
 .custom-toggler .navbar-toggler-icon {
@@ -53,7 +59,7 @@ html{
  
 .headtext{
     color: var(--yellow);
-    font-family: var(--headtextfont);
+    font-family:'forte';
     font-size: 10vw;
 }
 
@@ -135,12 +141,12 @@ html{
 /* Team */
 .head{
     color: var(--txtgrey1);
-    font-family: 'Libre Baskerville', serif;
+    font-family:'Arial Rounded MT';
 }
 
 
 .items div h4,.items div p{
-    font-family: var(--arialrounded);
+    
     text-align: center;
 }
 
