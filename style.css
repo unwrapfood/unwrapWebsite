@@ -1,5 +1,9 @@
 /* constants used */
-@import url(fonts/ARLRDBD.TTF);
+@font-face { font-family: Arial Rounded MT; 
+			 src: url('fonts/ARLRDBD.TTF'); } 
+             @font-face { font-family: forte; 
+			 src: url('fonts/FORTE.TTF'); } 
+
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
 
 :root{
@@ -11,7 +15,7 @@
     --txtgrey2:#505050;
     --txtgrey3:#707070;
     --txtgrey4:#575757;
-    --arialrounded:'Arial Rounded MT'
+    
 }
 
 html{
@@ -20,20 +24,22 @@ html{
     background-color: var(--bgcolor);
     scroll-behavior: smooth;
 }
-
+body{
+font-family: 'Arial Rounded MT';
+}
 /* Navbar */
 
 .navbar-nav .nav-link{
     margin: 0 2vw;
-    color: black !important;
+    color: var(--navgrey) !important;
 }
 
 .navbar-nav .nav-link:hover{
-    color: yellow !important;
+    color: var(--yellow) !important;
 }
 
 .custom-toggler.navbar-toggler {
-    border-color: rgb(128,0,128);
+    border-color: black;
 }
 
 .custom-toggler .navbar-toggler-icon {
@@ -55,7 +61,7 @@ html{
  
 .headtext{
     color: var(--yellow);
-    font-family: var(--headtextfont);
+    font-family:'forte';
     font-size: 10vw;
 }
 
@@ -129,12 +135,12 @@ html{
 
 .head{
     color: var(--txtgrey1);
-    font-family: 'Libre Baskerville', serif;
+
 }
 
 .secondpart .valuehead{
     margin-top: 2vw;
-    font-family: var(--arialrounded);
+ 
     font-weight: bold;
     color: var(--txtgrey3);
 }
@@ -143,9 +149,10 @@ html{
     margin-right: 1vw;
 }
 
-/* Choose Us */
-.choose_content{
-    margin-top: 4vh;
+/* Team */
+.head{
+    color: var(--txtgrey1);
+    font-family:'Arial Rounded MT';
 }
 
 .tag{
@@ -153,14 +160,14 @@ html{
 }
 
 .tag .subtag{
-    font-family: var(--arialrounded);
+    
     font-weight: bold;
     color: var(--txtgrey3);
 }
 
 /* Team */
 .items div h4,.items div p{
-    font-family: var(--arialrounded);
+    
     text-align: center;
 }
 
@@ -182,7 +189,7 @@ html{
 }
 
 .contact-me h2{
-    font-family: var(--arialrounded);
+    
     color: var(--txtgrey1);
     text-align: center;
     margin-bottom: 2rem;
@@ -203,7 +210,7 @@ html{
 .pws p,.jws p{
     margin-top: 2vh;
     color: var(--txtgrey2);
-    font-family: var(--arialrounded);
+    
 }
 
 .jws{
@@ -259,7 +266,7 @@ button[type="submit"]:hover i{
 
 .heading-list{
     font-size: larger;
-    font-family: var(--arialrounded);
+    
     color:var(--txtgrey1);
 }
 
