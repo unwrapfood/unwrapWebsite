@@ -49,7 +49,7 @@ font-family: 'Arial Rounded MT';
 
 /* Home */
 .headsection{
-    background-image: url('img/bg.png');
+    background-image: url('img/bg.jpg');
     background-size: cover;
     background-attachment: fixed;
 }
